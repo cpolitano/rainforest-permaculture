@@ -26,20 +26,20 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-1640094c4573d90b125b.js"
+    "url": "webpack-runtime-1bb6a967733d17e3b635.js"
   },
   {
-    "url": "app-589e0abb091e49067fb8.js"
+    "url": "app-f95b86298270e6b0e7aa.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-896a3f852b233b9ca05e.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "dd005e950ed38da5e314bbfca1d1df04"
+    "revision": "2bd8932ec209827a1e54b468359a1f16"
   },
   {
-    "url": "styles.66a4e7abec09535b4814.css"
+    "url": "styles.f9442a129a21d1a39a3a.css"
   },
   {
     "url": "styles-fbc925b19cac9dd3535c.js"
@@ -76,7 +76,7 @@ const navigationRoute = new workbox.routing.NavigationRoute(({ event }) => {
   return idbKeyval.get(WHITELIST_KEY).then((customWhitelist = []) => {
     // Respond with the offline shell if we match the custom whitelist
     if (customWhitelist.includes(pathname)) {
-      const offlineShell = `/rainforest-permaculture/offline-plugin-app-shell-fallback/index.html`
+      const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
       const cacheName = workbox.core.cacheNames.precache
 
       return caches.match(offlineShell, { cacheName }).then(cachedResponse => {
@@ -148,7 +148,7 @@ const messageApi = {
 
     pathnames = pathnames.map(({ pathname, includesPrefix }) => {
       if (!includesPrefix) {
-        return `/rainforest-permaculture${pathname}`
+        return `${pathname}`
       } else {
         return pathname
       }
