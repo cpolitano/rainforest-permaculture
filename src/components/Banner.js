@@ -1,19 +1,22 @@
 import React from 'react'
+import drone01 from '../assets/images/drone1.mp4'
 
 const Banner = (props) => (
     <section id="banner" className="major">
-        <div className="inner">
-            <header className="major">
-                <h1>Hi, my name is Forty</h1>
-            </header>
-            <div className="content">
-                <p>A responsive site template designed by HTML5 UP<br />
-                and released under the Creative Commons.</p>
-                <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Get Started</a></li>
-                </ul>
-            </div>
-        </div>
+          <video autoplay="autoplay" playsinline loop muted controls src={drone01} className="fullscreen-bg__video">
+          </video>
+          <div className="inner">
+              <header className="major">
+                  <h1>Rainforest Permaculture at Cocal</h1>
+              </header>
+              <div className="content">
+                  <p>A farmland restoration project and permaculture education center<br />
+                  in the heart of the Osa Peninsula, Costa Rica</p>
+                  <ul className="actions">
+                      <li><a href="#one" className="button next scrolly">Explore</a></li>
+                  </ul>
+              </div>
+      </div>
     </section>
 )
 
