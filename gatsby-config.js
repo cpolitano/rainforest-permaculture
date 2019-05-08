@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/rainforest-permaculture",
+  // pathPrefix: "/rainforest-permaculture",
   siteMetadata: {
     title: "Rainforest Permaculture - Cocal Restoration Project",
     author: "Clare Politano",
