@@ -1,8 +1,9 @@
 module.exports = {
+  pathPrefix: "/rainforest-permaculture",
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "Rainforest Permaculture - Cocal Restoration Project",
+    author: "Clare Politano",
+    description: "A farmland restoration project and permaculture education center in the heart of the Osa Peninsula, Costa Rica"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
