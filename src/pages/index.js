@@ -4,12 +4,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import pic01 from '../assets/images/swales.jpeg'
+import pic02 from '../assets/images/agroforestry-coconut-grove.jpg'
+import pic03 from '../assets/images/above-the-falls.jpg'
+import pic04 from '../assets/images/level-swales.jpeg'
+import pic05 from '../assets/images/liana.jpg'
+import pic06 from '../assets/images/guaria-sunset.jpeg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -17,10 +17,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Rainforest Permaculture - Cocal"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'A farmland restoration project and permaculture education center in the heart of the Osa Peninsula, Costa Rica' },
+                        { name: 'keywords', content: 'regeneration, permaculture, agroforestry, Costa Rica' },
                     ]}
                 >
                 </Helmet>
@@ -31,55 +31,67 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Earthworks</h3>
+                                <p>Restoring the Soil</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Agroforestry</h3>
+                                <p>Growing a Food Forest</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Education</h3>
+                                <p>Permaculture Lessons for Locals and Visitors</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Community</h3>
+                                <p>Regenerating the Osa</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Living Bridges</h3>
+                                <p>Preservation of Indigenous Lifeways</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <a href="http://livingbridgesfoundation.org/" className="link primary"></a>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Rainforest Medicine</h3>
+                                <p>Honoring indigenous science and promoting biodiversity</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <a href="http://rainforestmedicine.net/" className="link primary"></a>
                         </article>
                     </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>Donate</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>The Cocal Restoration Project is an intiative of the Living Bridges Foundation, a US 501(c)(3) nonprofit organization.
+                            Cocal (Coconut Grove) is 50 hectares of land in Los Planes area of Drake Bay, western Osa peninsula of Costa Rica, that is held as a sociedad civil.
+                            Eight hectares are cleared, former cattle pasture that will be regenerated with a permaculture plan to feed the community,
+                            and the remaining 42 ha will remain primary rainforest and an important wildlife corridor adjacent to Punta Rio Claro National Wildlife Refuge to the west,
+                            and Corcovado National Park to the south.</p>
+                            <h4>Current Initiatives</h4>
+                            <ul>
+                              <li>Trail work and bridge for access</li>
+                              <li>Earthworks, digging swales to catch rainwater</li>
+                              <li>Soil testing, compost project to restore soil</li>
+                              <li>Connect property to electrical grid</li>
+                              <li>Build permaculture lodge and worker cabinas</li>
+                            </ul>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><a href="http://livingbridgesfoundation.org/" className="button next">Support Regeneration</a></li>
                             </ul>
                         </div>
                     </section>

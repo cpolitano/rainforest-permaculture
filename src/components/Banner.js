@@ -10,7 +10,7 @@ const Banner = (props) => (
                   <h1>Rainforest Permaculture at Cocal</h1>
               </header>
               <div className="content">
-                  <p>A farmland restoration project and permaculture education center<br />
+                  <p>A farmland restoration project and permaculture education center <br />
                   in the heart of the Osa Peninsula, Costa Rica</p>
                   <ul className="actions">
                       <li><a href="#one" className="button next scrolly">Explore</a></li>
