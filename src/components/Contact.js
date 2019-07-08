@@ -4,7 +4,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="#">
+                <form method="post" action="mailto:cpolitano8@gmail.com" enctype="text/plain">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
@@ -35,7 +35,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
-                        <span>Cocal, Los Planes<br />
+                        <span>Cocoterra, Los Planes<br />
                         Drake Bay, Osa<br />
                         Costa Rica</span>
                     </div>

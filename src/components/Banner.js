@@ -7,7 +7,7 @@ const Banner = (props) => (
           </video>
           <div className="inner">
               <header className="major">
-                  <h1>Rainforest Permaculture at Cocal</h1>
+                  <h1>Cocoterra Rainforest Permaculture</h1>
               </header>
               <div className="content">
                   <p>A farmland restoration project and permaculture education center <br />

@@ -9,7 +9,7 @@ const Footer = (props) => (
                 <li><a href="https://www.youtube.com/channel/UChLj_xFXVDo1PURQB8rWaRg" className="icon alt fa-youtube"><span className="label">Youtube</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; Cocal Restoration Project</li><li>Website Created By: <a href="http://clarepolitano.com">Clare Politano</a></li>
+                <li>&copy; Cocoterra Rainforest Permaculture</li><li>Website Created By: <a href="http://clarepolitano.com">Clare Politano</a></li>
             </ul>
         </div>
     </footer>
