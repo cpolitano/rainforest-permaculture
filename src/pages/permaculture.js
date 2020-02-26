@@ -24,12 +24,6 @@ const Landing = (props) => (
                 </div>
                 <div className="inner">
                     <header className="major">
-                        <h2>Soil Sampling</h2>
-                    </header>
-                    <p>A collaboration with Sally Landefeld, M.S. in Environmental Science and Engineering, and the local Ministerio de Agricultura y Ganaderia (MAG). The agricultural portion of Cocotero, including 27 acres of the total 70, was cleared 50 years ago to create pasture that was grazed by mostly horses. The dense reddish soil is rich in clay, and is exposed to prolific sunshine during the high season as well as significant rainfall during the green season. Soils were first sampled in May 2019, and will be sampled annually to track scientifically measurable changes in soil and ecosystem health that may result from these permaculture practices. Measurements will asses macronutrient and micronutrient content, as well as soil microbiology. This soil science effort enhances the educational offerings of Cocotero, while contributing novel research to the areas of soil health, crop quality, and environmental health. This study provides a unique example of permaculture practices in one of the most biodiverse regions on Earth.</p>
-                </div>
-                <div className="inner">
-                    <header className="major">
                         <h2>Biochar</h2>
                     </header>
                     <p>Also known as Terra Preta, this ancient technique from the Amazon is currently a topic of prolific scientific research due to its potential for restoring soils in areas of high clay content such as Cocoterra and other tropical regions. Biochar provides a substrate for the growth of important fungal species that are key to healthy soil. The burnt particles break down relatively slowly, providing longer-term habitat for soil microbiology. This simple technique rebuilds healthy soil by restoring microbial health, and a robust soil microbial community makes nutrients more accessible to plants. To create Terra Preta, biochar (charcoal from burnt trees and bushes) is mixed with topsoil in a 1:10 ratio and buried in trenches ~1 foot deep to create fertile ground for planting.</p>
@@ -98,6 +92,12 @@ const Landing = (props) => (
                         <h2>Other Rare Plants</h2>
                     </header>
                     <p>The permaculture gardens and primary rainforest of Cocoterra include many more rare, endangered, or sacred plants, such as Copal (Protium sp.), Caraño (Trattinickia aspera), Aceituno (Simarouba amara), Cedrón (Simaba cedron) among so many others.</p>
+                </div>
+                <div className="inner">
+                    <header className="major">
+                        <h2>Soil Sampling</h2>
+                    </header>
+                    <p>A collaboration with Sally Landefeld, M.S. in Environmental Science and Engineering, and the local Ministerio de Agricultura y Ganaderia (MAG). The agricultural portion of Cocotero, including 27 acres of the total 70, was cleared 50 years ago to create pasture that was grazed by mostly horses. The dense reddish soil is rich in clay, and is exposed to prolific sunshine during the high season as well as significant rainfall during the green season. Soils were first sampled in May 2019, and will be sampled annually to track scientifically measurable changes in soil and ecosystem health that may result from these permaculture practices. Measurements will asses macronutrient and micronutrient content, as well as soil microbiology. This soil science effort enhances the educational offerings of Cocotero, while contributing novel research to the areas of soil health, crop quality, and environmental health. This study provides a unique example of permaculture practices in one of the most biodiverse regions on Earth.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">

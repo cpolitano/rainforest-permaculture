@@ -17,7 +17,7 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Rainforest Permaculture - Cocotero"
+                    title="Rainforest Permaculture - Cocoterra"
                     meta={[
                         { name: 'description', content: 'A farmland restoration project and permaculture education center in the heart of the Osa Peninsula, Costa Rica' },
                         { name: 'keywords', content: 'regeneration, permaculture, agroforestry, Costa Rica' },
@@ -45,33 +45,19 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/permaculture" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
-                            <header className="major">
-                                <h3>Education</h3>
-                                <p>Permaculture Training for Locals and Visitors</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Community</h3>
-                                <p>Regenerating the Osa</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
                                 <h3>Living Bridges</h3>
                                 <p>Preservation of Indigenous Lifeways</p>
                             </header>
-                            <a href="http://livingbridgesfoundation.org/" className="link primary"></a>
+                            <a href="http://livingbridgesfoundation.org/" target="_blank" className="link primary"></a>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
                                 <h3>Rainforest Medicine</h3>
                                 <p>Honoring indigenous science and promoting biodiversity</p>
                             </header>
-                            <a href="http://rainforestmedicine.net/" className="link primary"></a>
+                            <a href="http://rainforestmedicine.net/" target="_blank" className="link primary"></a>
                         </article>
                     </section>
                     <section id="two">
@@ -114,3 +100,18 @@ class HomeIndex extends React.Component {
 }
 
 export default HomeIndex
+
+// <article style={{backgroundImage: `url(${pic03})`}}>
+//     <header className="major">
+//         <h3>Education</h3>
+//         <p>Permaculture Training for Locals and Visitors</p>
+//     </header>
+//     <Link to="/landing" className="link primary"></Link>
+// </article>
+// <article style={{backgroundImage: `url(${pic04})`}}>
+//     <header className="major">
+//         <h3>Community</h3>
+//         <p>Regenerating the Osa</p>
+//     </header>
+//     <Link to="/landing" className="link primary"></Link>
+// </article>
