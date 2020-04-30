@@ -48,16 +48,16 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
                                 <h3>Living Bridges</h3>
-                                <p>Preservation of Indigenous Lifeways</p>
+                                <p>Preservation of Indigenous Lifeways and Biodiversity Conservation</p>
                             </header>
                             <a href="http://livingbridgesfoundation.org/" target="_blank" className="link primary"></a>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Rainforest Medicine</h3>
-                                <p>Honoring indigenous science and promoting biodiversity</p>
+                                <h3>Support Regeneration</h3>
+                                <p>Contribute to Biodiversity Conservation, Permaculture and Sustainable Communities</p>
                             </header>
-                            <a href="http://rainforestmedicine.net/" target="_blank" className="link primary"></a>
+                            <a href="https://charity.gofundme.com/o/en/campaign/cocoterra" target="_blank" className="link primary"></a>
                         </article>
                     </section>
                     <section id="two">
@@ -81,14 +81,9 @@ class HomeIndex extends React.Component {
                             <p>Tapirs graze on fallen mangoes as we await your generous support that will immediately impact our beautiful green planet and all its creatures.</p>
 
                             <div className="donate-button">
-                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                  <input type="hidden" name="cmd" value="_donations" />
-                                  <input type="hidden" name="business" value="sparrowsky@gmail.com" />
-                                  <input type="hidden" name="item_name" value="Regenerating Osa, Costa Rica" />
-                                  <input type="hidden" name="currency_code" value="USD" />
-                                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                                  <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                                </form>
+                              <ul className="actions">
+                                  <li><a href="https://charity.gofundme.com/o/en/campaign/cocoterra" target="_blank" className="button scrolly">Donate</a></li>
+                              </ul>
                             </div>
                         </div>
                     </section>
